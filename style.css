@@ -1,0 +1,32 @@
+body{
+    background-image: url(image.webp);
+    background-size: cover;
+}
+p{color: crimson;
+font-size: large;}
+a{text-decoration:none;
+border:2px solid greenyellow;}
+h1{
+    text-align: center;
+    border: 5px solid rgb(234, 127, 4);
+    background-color: brown;
+    box-shadow:5px 5px 5px red;
+}
+.sarthak{
+      font-size: x-large;
+      font-style: oblique;
+      color: aqua;
+      box-sizing: border-box;
+}
+.images{display:flex;
+    flex-wrap: wrap;
+
+
+justify-content: center;
+}
+img{border:30px;
+    margin:10px;
+width:400px;
+height:300px;
+transition: all 1S;}
+img:hover{transform:scale(1.2);}
